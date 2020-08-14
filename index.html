@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <header>
+        <h1>Survey Form</h1>
+    </header>
+    <div class="container">
+        <div class="questions">
+            <div class="question">
+                <p class="que 1">*Name:</p>
+                <input class="ans" type="text">
+            </div>
+            <div class="question">
+                <p class="que 2">*Email:</p>
+                <input class="ans" placeholder="" type="text">
+            </div>
+            <div class="question">
+                <p class="que 3">*Age:</p>
+                <input class="ans" type="text">
+            </div>
+            <div class="question">
+                <p class="que 4">Which option best describes your current role:</p>
+                <SELECT NAME="profession">
+                    <OPTION VALUE="" SELECTED>Select your option
+                    <OPTION VALUE="student">Student
+                    <OPTION VALUE="teacher">Teacher
+                    <OPTION VALUE="expert">Indrusty Expert
+                    <OPTION VALUE="other">Other
+                </SELECT>
+            </div>
+            <div class="question">
+                <p class="que 4">How would you rate this form in 5-star rating?</p>
+                <INPUT TYPE="radio" NAME="rating" VALUE="no" CHECKED>No ratings<BR>
+                <INPUT TYPE="radio" NAME="rating" VALUE="1">1<BR>
+                <INPUT TYPE="radio" NAME="rating" VALUE="2">2<BR>
+                <INPUT TYPE="radio" NAME="rating" VALUE="3">3<BR>
+                <INPUT TYPE="radio" NAME="rating" VALUE="4">4<BR>
+                <INPUT TYPE="radio" NAME="rating" VALUE="5">5<BR>
+            </div>
+            <div class="question">
+                <p class="que 4">How likely is that you would recommend this form page to a friend?</p>
+                <INPUT TYPE="radio" NAME="recommend" VALUE="definitely">Definitely<BR>
+                <INPUT TYPE="radio" NAME="recommend" VALUE="maybe">May be<BR>
+                <INPUT TYPE="radio" NAME="recommend" VALUE="notsure">Not Sure<BR>
+            </div>
+            <div class="question">
+                <p class="que 4">Things that should be improved in the future(Check all that apply):</p>
+                <INPUT TYPE="checkbox" NAME="impr" VALUE="bad">Basic structure of page<BR>
+                <INPUT TYPE="checkbox" NAME="impr" VALUE="needs-improvement">CSS part/color combination<BR>
+                <INPUT TYPE="checkbox" NAME="impr" VALUE="somewhat-good">Type of questions<BR>
+                <INPUT TYPE="checkbox" NAME="impr" VALUE="good">question selection type<BR>
+                <INPUT TYPE="checkbox" NAME="impr" VALUE="very-good">Everything tis allright<BR>
+            </div>
+            <div class="submit">
+                <input class="submit-btn" type="submit" view="submit">
+            </div>
+        </div>
+    </div>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
